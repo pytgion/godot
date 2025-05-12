@@ -31,7 +31,7 @@
 #pragma once
 
 #include "core/version_generated.gen.h"
-//#include "version_soterio.gen.h"
+
 
 #include <stdint.h>
 
