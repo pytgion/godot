@@ -31,6 +31,7 @@
 #pragma once
 
 #include "core/version_generated.gen.h"
+//#include "version_soterio.gen.h"
 
 #include <stdint.h>
 
@@ -73,7 +74,9 @@
 
 // Same as above, but prepended with Godot's name and a cosmetic "v" for "version".
 // Example: "Godot v3.1.4.stable.official.mono"
-#define VERSION_FULL_NAME VERSION_NAME " v" VERSION_FULL_BUILD
+#define VERSION_FULL_NAME VERSION_NAME " v" VERSION_FULL_BUILD " (" SOTERIO_ENGINE_VERSION ")"
+
+#define SOTERIO_ENGINE_VERSION "Soterio Engine v0.1.4"
 
 // Git commit hash, generated at build time in `core/version_hash.gen.cpp`.
 extern const char *const VERSION_HASH;
