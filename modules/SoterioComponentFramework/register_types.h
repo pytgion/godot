@@ -1,0 +1,9 @@
+#ifndef SOTERIO_COMPONENT_REGISTER_TYPES_H
+#define SOTERIO_COMPONENT_REGISTER_TYPES_H
+
+#include "modules/register_module_types.h"
+
+void initialize_SoterioComponentFramework_module(ModuleInitializationLevel p_level);
+void uninitialize_SoterioComponentFramework_module(ModuleInitializationLevel p_level);
+
+#endif // SOTERIO_COMPONENT_REGISTER_TYPES_H
